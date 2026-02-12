@@ -1,0 +1,894 @@
+{
+  "category": "CRYPTID",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/jersey-devil",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "jersey-devil",
+    "name": "Jersey Devil",
+    "aliases": [
+      {
+        "name": "Leeds Devil",
+        "language": "English",
+        "region": "New Jersey, USA",
+        "meaning": "Named after the Leeds family of colonial legend"
+      },
+      {
+        "name": "Wozzle Bug",
+        "language": "English",
+        "region": "South Jersey",
+        "meaning": "Local colloquial term"
+      },
+      {
+        "name": "Pine Barrens Devil",
+        "language": "English",
+        "region": "New Jersey Pine Barrens",
+        "meaning": "Geographic designation"
+      },
+      {
+        "name": "Thirteenth Child",
+        "language": "English",
+        "region": "New Jersey",
+        "meaning": "Reference to Mother Leeds legend"
+      }
+    ],
+    "category": "CRYPTID",
+    "subcategory": "Winged Humanoid",
+    "tags": [
+      "winged-humanoid",
+      "bipedal",
+      "folklore",
+      "colonial-america",
+      "new-jersey",
+      "nocturnal",
+      "regional-legend"
+    ],
+    "status": "active",
+    "description": {
+      "summary": "A legendary winged creature with a horse-like head, bat wings, hooves, and forked tail, said to inhabit New Jersey's Pine Barrens. One of America's oldest and most enduring regional cryptids.",
+      "full": "The Jersey Devil is a legendary creature said to inhabit the Pine Barrens of South Jersey. Described as having the head of a horse or goat, bat-like wings, hooves, and a forked tail, the creature has been part of New Jersey folklore for nearly three centuries. According to legend, it was born in 1735 as the cursed thirteenth child of Mother Leeds. The creature gained widespread notoriety during a mass sighting wave in January 1909, when thousands of people across New Jersey and Pennsylvania reported encounters. The Jersey Devil remains deeply embedded in New Jersey culture and is considered the state's most famous legend."
+    },
+    "etymology": {
+      "origin": "Named after the Leeds family of colonial New Jersey. According to legend, Mother Leeds cursed her thirteenth child in 1735, declaring 'Let this one be a devil!' The child was allegedly born deformed and escaped up the chimney.",
+      "meaning": "Devil associated with the Leeds family and the New Jersey Pine Barrens",
+      "first_use": "1735 (approximate, in oral tradition)"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "CRYPTID",
+      "type": "Winged Humanoid",
+      "subtype": "Chimeric",
+      "variant": "American Colonial"
+    },
+    "related_phenomena": [
+      {
+        "id": "mothman",
+        "name": "Mothman",
+        "relationship": "similar",
+        "description": "Winged humanoid entity from West Virginia"
+      },
+      {
+        "id": "owlman",
+        "name": "Owlman",
+        "relationship": "similar",
+        "description": "Winged humanoid from Cornwall, England"
+      },
+      {
+        "id": "bat-boy",
+        "name": "Bat Boy",
+        "relationship": "similar",
+        "description": "Modern tabloid creature with similar features"
+      },
+      {
+        "id": "thunderbird",
+        "name": "Thunderbird",
+        "relationship": "related",
+        "description": "Indigenous North American winged creature"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "height": {
+        "min": 1.0,
+        "max": 2.4,
+        "unit": "meters",
+        "confidence": "low"
+      },
+      "wingspan": {
+        "min": 1.5,
+        "max": 3.6,
+        "unit": "meters",
+        "confidence": "low"
+      },
+      "weight": {
+        "min": 45,
+        "max": 90,
+        "unit": "kilograms",
+        "confidence": "low"
+      },
+      "coloration": [
+        "dark brown",
+        "black",
+        "dark green",
+        "leathery gray"
+      ],
+      "features": [
+        {
+          "feature": "Head",
+          "description": "Horse-like or goat-like head with elongated snout",
+          "frequency": "always"
+        },
+        {
+          "feature": "Wings",
+          "description": "Large bat-like or leathery wings",
+          "frequency": "always"
+        },
+        {
+          "feature": "Legs",
+          "description": "Short, clawed or hooved legs, often described as kangaroo-like",
+          "frequency": "always"
+        },
+        {
+          "feature": "Tail",
+          "description": "Long forked tail, sometimes described as pointed or serpentine",
+          "frequency": "common"
+        },
+        {
+          "feature": "Eyes",
+          "description": "Glowing red or yellow eyes",
+          "frequency": "common"
+        },
+        {
+          "feature": "Body",
+          "description": "Lean, muscular body with dark leathery or furry skin",
+          "frequency": "always"
+        },
+        {
+          "feature": "Claws",
+          "description": "Sharp claws on wings and/or feet",
+          "frequency": "common"
+        }
+      ],
+      "morphology": "Chimeric creature combining equine, chiropteran (bat), and reptilian features. Bipedal locomotion with capability for flight. Kangaroo-like hindquarters frequently reported."
+    },
+    "abilities": [
+      {
+        "ability": "Flight",
+        "description": "Capable of sustained powered flight with bat-like wings",
+        "frequency": "always",
+        "evidence_level": "reported"
+      },
+      {
+        "ability": "Blood-curdling scream",
+        "description": "Produces terrifying high-pitched scream or shriek",
+        "frequency": "common",
+        "evidence_level": "reported"
+      },
+      {
+        "ability": "Livestock predation",
+        "description": "Reported to attack and kill chickens, small animals",
+        "frequency": "occasional",
+        "evidence_level": "reported"
+      },
+      {
+        "ability": "Supernatural speed",
+        "description": "Moves with extraordinary speed both on ground and in air",
+        "frequency": "common",
+        "evidence_level": "reported"
+      },
+      {
+        "ability": "Track production",
+        "description": "Leaves distinctive hoofed or clawed tracks",
+        "frequency": "occasional",
+        "evidence_level": "documented"
+      }
+    ],
+    "behavior": {
+      "activity_period": "nocturnal",
+      "disposition": "hostile to neutral",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "pine barrens",
+        "swamps",
+        "forests",
+        "abandoned buildings",
+        "rural areas"
+      ],
+      "diet": "Unknown, reports of livestock predation",
+      "patterns": [
+        "Primarily nocturnal activity",
+        "Periodic mass sighting waves",
+        "Often seen near water",
+        "Associated with abandoned structures",
+        "Avoids direct confrontation despite aggressive displays"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Primarily concentrated in New Jersey's Pine Barrens, with sightings throughout southern and central New Jersey, and occasional reports from eastern Pennsylvania and northern Delaware.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": [
+        "New Jersey Pine Barrens",
+        "South Jersey",
+        "Central Jersey",
+        "Eastern Pennsylvania",
+        "Northern Delaware"
+      ]
+    },
+    "hotspots": [
+      {
+        "name": "Pine Barrens",
+        "location": {
+          "description": "New Jersey Pine Barrens, Pinelands National Reserve",
+          "country": "United States",
+          "region": "South Jersey",
+          "coordinates": {
+            "latitude": 39.8,
+            "longitude": -74.5
+          }
+        },
+        "sighting_count": 2000,
+        "peak_period": "1909, sporadic reports 1735-present",
+        "notes": "Historic heartland of Jersey Devil sightings, densely forested wilderness area"
+      },
+      {
+        "name": "Leeds Point",
+        "location": {
+          "description": "Leeds Point, Atlantic County",
+          "country": "United States",
+          "region": "New Jersey",
+          "coordinates": {
+            "latitude": 39.4783,
+            "longitude": -74.4126
+          }
+        },
+        "sighting_count": 100,
+        "peak_period": "1735-present",
+        "notes": "Legendary birthplace of the Jersey Devil"
+      },
+      {
+        "name": "Camden/Philadelphia area",
+        "location": {
+          "description": "Camden, NJ and Philadelphia, PA metropolitan area",
+          "country": "United States",
+          "region": "New Jersey/Pennsylvania",
+          "coordinates": {
+            "latitude": 39.9259,
+            "longitude": -75.1196
+          }
+        },
+        "sighting_count": 300,
+        "peak_period": "January 1909",
+        "notes": "Site of intense 1909 mass sighting wave"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {
+        "date": "1735",
+        "circa": true,
+        "source": "Mother Leeds legend, oral tradition"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "January 16-23, 1909",
+          "description": "Phenomenal week: thousands of sightings across New Jersey and Pennsylvania"
+        },
+        {
+          "period": "1951",
+          "description": "Significant sighting wave in Gibbstown, NJ"
+        },
+        {
+          "period": "1960s-1970s",
+          "description": "Renewed interest and sporadic sightings"
+        },
+        {
+          "period": "1990s-present",
+          "description": "Continued sporadic sightings, cultural revival"
+        }
+      ],
+      "seasonal_patterns": "Higher report frequency in winter months, particularly January"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Rooted in colonial American folklore and possibly Indigenous traditions of the Lenni Lenape people. The Leeds family was a real colonial family, with Daniel Leeds being a prominent 18th-century figure.",
+      "earliest_accounts": "Legend dates to 1735 birth of the creature. Historical references to the Leeds family and political rivalries with Benjamin Franklin may have contributed to demonization.",
+      "folklore_connections": "Connected to European devil folklore, chimeric creatures, and New World colonial superstitions. Possible influences from Lenni Lenape traditions."
+    },
+    "timeline": [
+      {
+        "date": "1735",
+        "event": "Legendary birth of Jersey Devil",
+        "significance": "Mother Leeds allegedly gives birth to cursed thirteenth child that transforms into a monster and flies up the chimney",
+        "source": "Oral tradition"
+      },
+      {
+        "date": "1740s-1890s",
+        "event": "Sporadic colonial and 19th century reports",
+        "significance": "Scattered sightings and folklore establish regional legend",
+        "source": "Local newspapers, oral tradition"
+      },
+      {
+        "date": "1820",
+        "event": "Commodore Stephen Decatur incident",
+        "significance": "Naval hero reportedly fires cannonball at flying creature while testing cannons at Hanover Iron Works",
+        "source": "Regional legend"
+      },
+      {
+        "date": "1840-1841",
+        "event": "Multiple livestock killings",
+        "significance": "Wave of animal deaths attributed to the Jersey Devil",
+        "source": "Local newspaper reports"
+      },
+      {
+        "date": "1909-01-16 to 1909-01-23",
+        "event": "The Phenomenal Week",
+        "significance": "Mass sighting wave: thousands of witnesses across New Jersey, Pennsylvania. Tracks found in snow, widespread panic, schools and factories close",
+        "source": "Extensive newspaper coverage from multiple cities"
+      },
+      {
+        "date": "1909-01-19",
+        "event": "Camden incidents",
+        "significance": "Multiple sightings in Camden, including confrontations with residents and police",
+        "source": "Camden newspapers"
+      },
+      {
+        "date": "1909-01-21",
+        "event": "Philadelphia panic",
+        "significance": "Massive crowds in Philadelphia streets, creature reportedly seen on rooftops",
+        "source": "Philadelphia newspapers"
+      },
+      {
+        "date": "1951-03",
+        "event": "Gibbstown sighting wave",
+        "significance": "Multiple residents report creature sightings over several weeks",
+        "source": "Local press"
+      },
+      {
+        "date": "1960",
+        "event": "Merchants at Mays Landing",
+        "significance": "Business owners report tracks and sightings",
+        "source": "News reports"
+      },
+      {
+        "date": "1987",
+        "event": "New Jersey state symbol campaign",
+        "significance": "Unsuccessful campaign to make Jersey Devil official state demon",
+        "source": "Media reports"
+      },
+      {
+        "date": "2015",
+        "event": "Modern sightings surge",
+        "significance": "Reported sightings in Galloway Township with cell phone footage",
+        "source": "Social media, news reports"
+      }
+    ],
+    "modern_era": "The Jersey Devil remains a vibrant part of New Jersey culture. It serves as a tourism mascot, sports team namesake (New Jersey Devils NHL team), and subject of ongoing cryptozoological interest. Modern sightings continue, often documented through social media and digital photography."
+  },
+
+  "sightings": {
+    "statistics": {
+      "total_documented": 2000,
+      "verified": 0,
+      "disputed": 1800,
+      "debunked": 200,
+      "date_range": {
+        "earliest": "1735",
+        "latest": "2026"
+      }
+    },
+    "notable": [
+      {
+        "id": "jersey-devil-1909-phenomenal-week",
+        "name": "The Phenomenal Week (1909)",
+        "date": {
+          "value": "1909-01-16",
+          "precision": "date range (January 16-23)"
+        },
+        "location": {
+          "description": "Throughout New Jersey and Pennsylvania",
+          "country": "United States",
+          "region": "New Jersey, Pennsylvania",
+          "coordinates": {
+            "latitude": 40.0,
+            "longitude": -74.8,
+            "precision": "regional"
+          }
+        },
+        "witnesses": {
+          "count": 1000,
+          "types": ["General public", "Police officers", "Factory workers", "City officials"],
+          "credibility_factors": ["Thousands of witnesses", "Multiple independent reports", "Newspaper documentation", "Physical tracks found"]
+        },
+        "description": "The most intense week of Jersey Devil sightings in history. Beginning January 16, reports flooded in from across New Jersey and Pennsylvania. Witnesses described a flying creature with a horse head, bat wings, and clawed feet. Tracks were found in snow throughout the region, often on rooftops. In Bristol, PA, police officers fired at the creature. In Camden, residents armed themselves. Philadelphia experienced mass hysteria with crowds gathering in streets. Schools closed, workers refused to leave factories, and a $10,000 reward was offered.",
+        "conditions": {
+          "weather": "Cold, snow on ground",
+          "visibility": "Variable - night and day sightings",
+          "time_of_day": "Primarily night, some day sightings",
+          "duration": "Seven days of continuous reports"
+        },
+        "evidence": [
+          "Extensive newspaper coverage from multiple cities",
+          "Photographs of tracks in snow",
+          "Multiple police reports",
+          "Plaster casts of footprints"
+        ],
+        "credibility": {
+          "rating": "medium",
+          "factors": [
+            "Massive number of witnesses",
+            "Contemporary documentation",
+            "Physical tracks documented",
+            "Some hoaxes admitted afterward",
+            "Mass hysteria factors",
+            "Detailed consistent descriptions"
+          ],
+          "notes": "Most significant cryptid mass sighting event in American history. While some hoaxes were exposed, the sheer volume and consistency of reports remains compelling."
+        },
+        "sources": [
+          "Philadelphia Public Ledger, January 1909",
+          "Camden Post-Telegram, January 1909",
+          "Trenton Evening Times, January 1909",
+          "Multiple contemporary newspapers"
+        ],
+        "featured": true
+      },
+      {
+        "id": "jersey-devil-1820-decatur",
+        "name": "Commodore Decatur Sighting",
+        "date": {
+          "value": "1820",
+          "precision": "circa"
+        },
+        "location": {
+          "description": "Hanover Iron Works",
+          "country": "United States",
+          "region": "New Jersey",
+          "locality": "Hanover Furnace",
+          "coordinates": {
+            "latitude": 39.8145,
+            "longitude": -74.5825,
+            "precision": "approximate"
+          }
+        },
+        "witnesses": {
+          "count": 1,
+          "types": ["Naval officer"],
+          "credibility_factors": ["War hero", "Decorated officer"]
+        },
+        "description": "Naval hero Commodore Stephen Decatur reportedly witnessed a strange flying creature while testing cannons at Hanover Iron Works. According to legend, he fired a cannonball directly through the creature, but it continued flying away apparently unharmed.",
+        "conditions": {
+          "weather": "Unknown",
+          "visibility": "Day",
+          "time_of_day": "Day",
+          "duration": "Brief"
+        },
+        "evidence": [
+          "Oral tradition",
+          "Regional folklore"
+        ],
+        "credibility": {
+          "rating": "low",
+          "factors": [
+            "Single witness",
+            "Legendary account",
+            "No contemporary documentation",
+            "Fantastical elements (survived cannonball)",
+            "High-profile witness"
+          ],
+          "notes": "Classic regional legend. While Decatur was a real person who visited the area, no contemporary documentation of this incident exists."
+        },
+        "sources": [
+          "Regional folklore",
+          "McCloy & Miller (1976). The Jersey Devil"
+        ],
+        "featured": true
+      },
+      {
+        "id": "jersey-devil-1909-bristol-police",
+        "name": "Bristol Police Encounter",
+        "date": {
+          "value": "1909-01-19",
+          "precision": "exact"
+        },
+        "location": {
+          "description": "Bristol Borough",
+          "country": "United States",
+          "region": "Pennsylvania",
+          "coordinates": {
+            "latitude": 40.1007,
+            "longitude": -74.8515,
+            "precision": "approximate"
+          }
+        },
+        "witnesses": {
+          "count": 2,
+          "types": ["Police officers"],
+          "credibility_factors": ["Law enforcement officers", "Official report filed"]
+        },
+        "description": "Two Bristol police officers encountered a strange creature and opened fire. The creature was described as having wings and moving with incredible speed. It emitted a horrible scream before flying away. The officers reported it appeared uninjured by their gunfire.",
+        "conditions": {
+          "weather": "Cold, clear",
+          "visibility": "Night",
+          "time_of_day": "Late night",
+          "duration": "Several minutes"
+        },
+        "evidence": [
+          "Police report",
+          "Newspaper coverage",
+          "Witness testimony"
+        ],
+        "credibility": {
+          "rating": "medium",
+          "factors": [
+            "Law enforcement witnesses",
+            "Official documentation",
+            "Part of larger sighting wave",
+            "Consistent with other reports"
+          ],
+          "notes": "One of the more credible individual sightings from the 1909 wave due to trained observer witnesses."
+        },
+        "sources": [
+          "Bristol newspapers, January 1909",
+          "Philadelphia Public Ledger, January 21, 1909"
+        ],
+        "featured": true
+      },
+      {
+        "id": "jersey-devil-1951-gibbstown",
+        "name": "Gibbstown Sighting Wave",
+        "date": {
+          "value": "1951-03",
+          "precision": "month"
+        },
+        "location": {
+          "description": "Gibbstown",
+          "country": "United States",
+          "region": "New Jersey",
+          "locality": "Gloucester County",
+          "coordinates": {
+            "latitude": 39.8271,
+            "longitude": -75.2810,
+            "precision": "approximate"
+          }
+        },
+        "witnesses": {
+          "count": 10,
+          "types": ["Local residents"],
+          "credibility_factors": ["Multiple witnesses", "Consistent descriptions"]
+        },
+        "description": "A wave of sightings occurred over several weeks in Gibbstown. Witnesses described a creature matching classic Jersey Devil descriptions flying over the town. Some reported horrible screams, others saw tracks near the Delaware River.",
+        "conditions": {
+          "weather": "Variable",
+          "visibility": "Night sightings primarily",
+          "time_of_day": "Night",
+          "duration": "Several weeks"
+        },
+        "evidence": [
+          "Local newspaper reports",
+          "Multiple witness testimony",
+          "Track descriptions"
+        ],
+        "credibility": {
+          "rating": "medium-low",
+          "factors": [
+            "Multiple witnesses",
+            "Local press coverage",
+            "Consistent with legend",
+            "No physical evidence preserved"
+          ],
+          "notes": "Significant post-1909 sighting wave demonstrating continued cultural presence of the legend."
+        },
+        "sources": [
+          "Local New Jersey newspapers, March 1951"
+        ],
+        "featured": false
+      }
+    ],
+    "database_path": "./sightings/"
+  },
+
+  "evidence": {
+    "physical": [
+      {
+        "id": "jersey-devil-tracks-1909",
+        "type": "footprints",
+        "name": "1909 Snow Tracks",
+        "date": "1909-01-16 to 1909-01-23",
+        "description": "Numerous tracks found in snow throughout New Jersey and Pennsylvania. Described as hoofed or clawed, often appearing on rooftops and in impossible locations",
+        "location": "Multiple locations across New Jersey and Pennsylvania",
+        "status": "disputed",
+        "analysis": "Contemporary descriptions and photographs exist. Some tracks explained as possums, other animals, or hoaxes. Pattern of tracks appearing in inaccessible locations remains unexplained.",
+        "source": "Multiple newspapers, 1909"
+      },
+      {
+        "id": "jersey-devil-plaster-casts",
+        "type": "track casts",
+        "name": "Various plaster casts",
+        "date": "1909-present",
+        "description": "Plaster casts of alleged Jersey Devil tracks collected over decades",
+        "status": "disputed",
+        "analysis": "Most identified as known animals or hoaxes. Some remain unidentified but not conclusively linked to unknown creature.",
+        "source": "Various collectors and researchers"
+      }
+    ],
+    "photographic": [
+      {
+        "id": "jersey-devil-photo-1909",
+        "type": "photographs",
+        "name": "1909 Track Photographs",
+        "date": "1909-01",
+        "description": "Several photographs of tracks in snow published in newspapers",
+        "status": "disputed",
+        "analysis": "Quality too poor for definitive analysis. Tracks could be from known animals.",
+        "source": "Contemporary newspapers"
+      },
+      {
+        "id": "jersey-devil-photo-2015",
+        "type": "digital photograph",
+        "name": "Galloway Township Photo",
+        "date": "2015-10",
+        "description": "Cell phone image allegedly showing flying creature",
+        "status": "disputed",
+        "analysis": "Viral social media image. Quality insufficient for identification. Possibly a crane or other large bird.",
+        "source": "Social media"
+      }
+    ],
+    "video": [
+      {
+        "id": "jersey-devil-video-2015",
+        "type": "video",
+        "name": "Galloway Township Video",
+        "date": "2015-10",
+        "description": "Brief cell phone video of flying creature",
+        "status": "disputed",
+        "analysis": "Too distant and brief for positive identification. Likely a bird.",
+        "source": "Social media/news"
+      }
+    ],
+    "audio": [
+      {
+        "id": "jersey-devil-screams",
+        "type": "audio recording",
+        "name": "Various scream recordings",
+        "date": "Various",
+        "description": "Alleged Jersey Devil screams recorded in Pine Barrens",
+        "status": "disputed",
+        "analysis": "Most identified as foxes, owls, or other animals. Fox screams particularly similar to descriptions.",
+        "source": "Various researchers"
+      }
+    ],
+    "trace": []
+  },
+
+  "theories": {
+    "paranormal": [
+      {
+        "name": "Cursed Birth/Demon",
+        "description": "Traditional explanation: literal demon spawned by Mother Leeds' curse. Supernatural entity that cannot be killed.",
+        "proponents": ["Folklore tradition"],
+        "evidence_cited": ["Survived cannonball in Decatur account", "Survived gunfire", "Centuries of survival impossible for natural creature"]
+      },
+      {
+        "name": "Interdimensional Entity",
+        "description": "Modern paranormal theory suggesting the Jersey Devil phases in and out of our reality, explaining sporadic appearances and lack of physical evidence",
+        "proponents": ["Some paranormal researchers"],
+        "evidence_cited": ["Sudden appearances and disappearances", "Mass sighting patterns", "Lack of corpse or remains ever found"]
+      }
+    ],
+    "cryptozoological": [
+      {
+        "name": "Living Pterosaur",
+        "description": "Theory that Jersey Devil is a surviving pterosaur or similar flying reptile",
+        "proponents": ["Some cryptozoologists"],
+        "evidence_cited": ["Wing structure descriptions", "Reptilian features", "Long survival since 1735"]
+      },
+      {
+        "name": "Unknown Bat Species",
+        "description": "Extremely large unknown bat species native to Pine Barrens",
+        "proponents": ["Some zoologists"],
+        "evidence_cited": ["Bat-like wings", "Nocturnal behavior", "Flying capabilities"]
+      },
+      {
+        "name": "Hybrid Mutation",
+        "description": "Deformed birth that somehow survived and reproduced, creating a colony of mutant creatures",
+        "proponents": ["Alternative researchers"],
+        "evidence_cited": ["Original birth legend", "Sporadic sightings suggest breeding population"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Mass Hysteria (1909)",
+        "description": "The 1909 wave was primarily mass hysteria triggered by initial hoaxes and newspaper sensationalism",
+        "proponents": ["Mainstream skeptics", "Historians"],
+        "evidence_cited": ["Confirmed hoaxes during 1909", "Psychological contagion patterns", "Similar mass hysteria events", "Newspaper circulation war context"]
+      },
+      {
+        "name": "Sandhill Crane Misidentification",
+        "description": "Sightings are misidentifications of sandhill cranes, large birds with 7-foot wingspans, horse-like heads, and strange calls",
+        "proponents": ["Ornithologists", "Skeptics"],
+        "evidence_cited": ["Sandhill cranes rare but present in New Jersey", "Size and appearance match descriptions", "Unusual call could inspire 'scream' reports", "Stand 3-4 feet tall"]
+      },
+      {
+        "name": "Political Smear Campaign Origins",
+        "description": "The legend originated as a political attack on the Leeds family by Benjamin Franklin and his allies. Daniel Leeds published almanacs competing with Franklin's Poor Richard's Almanac.",
+        "proponents": ["Historians"],
+        "evidence_cited": ["Historical rivalry between Leeds and Franklin", "Franklin family connection to legend propagation", "Political context of colonial New Jersey"]
+      },
+      {
+        "name": "Multiple Animal Misidentifications",
+        "description": "Different sightings represent different animals: cranes, herons, owls, foxes (screams), possums (tracks)",
+        "proponents": ["Skeptical researchers"],
+        "evidence_cited": ["Known animal behaviors match specific reports", "Fox screams extremely unsettling", "Possum tracks similar to some 1909 descriptions"]
+      },
+      {
+        "name": "Pure Folklore",
+        "description": "Entirely folkloric tradition with no basis in biological reality. Cultural legend serving social functions.",
+        "proponents": ["Folklorists", "Cultural anthropologists"],
+        "evidence_cited": ["No physical evidence in 300 years", "Classic folklore structure", "Regional identity symbol", "Tourist attraction value"]
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Mother Leeds thirteenth child legend",
+        "Colonial American devil folklore",
+        "Pine Barrens regional identity",
+        "New Jersey state legend"
+      ],
+      "stories": [
+        "Mother Leeds curse and birth (1735)",
+        "Commodore Decatur cannonball incident",
+        "The Phenomenal Week mass panic",
+        "Leeds Point haunting",
+        "Pine Barrens encounters"
+      ],
+      "beliefs": "Central to New Jersey cultural identity. Some Pine Barrens residents treat the Jersey Devil as a protective regional spirit. Others view it as a warning against venturing into the wilderness."
+    },
+    "indigenous": {
+      "cultures": [
+        "Lenni Lenape"
+      ],
+      "significance": "Some researchers suggest Lenni Lenape traditions of forest spirits or creatures may have influenced the Jersey Devil legend, though no direct connection has been definitively established.",
+      "sensitivity_note": "Claims connecting the Jersey Devil to Indigenous traditions should be approached carefully. The legend is primarily a colonial American creation.",
+      "respect_guidelines": "Do not misrepresent or appropriate Indigenous traditions when discussing Jersey Devil origins."
+    },
+    "popular_culture": {
+      "literature": [
+        "\"The Jersey Devil\" by James F. McCloy & Ray Miller Jr. (1976)",
+        "\"Thirteen Moons on Turtle's Back\" by Joseph Bruchac (1992)",
+        "\"The Treasure of Savage Island\" by S.A. Bodeen (2012)",
+        "Numerous children's books and horror novels"
+      ],
+      "film_tv": [
+        "The X-Files: \"The Jersey Devil\" (Season 1, Episode 5, 1993)",
+        "The Real Housewives of New Jersey (mentions and references)",
+        "Supernatural: \"I Know What You Did Last Summer\" (2008)",
+        "Destination Truth investigation episodes",
+        "Multiple documentary films"
+      ],
+      "games": [
+        "Fallout 76 (creature enemy)",
+        "Various indie horror games",
+        "Pokémon (possible inspiration for certain designs)"
+      ],
+      "sports": [
+        "New Jersey Devils NHL team (founded 1982, named 1982)"
+      ],
+      "other": [
+        "Official state demon campaign (unofficial status)",
+        "Major tourism draw for Pine Barrens region",
+        "Annual Jersey Devil Festival",
+        "Countless local business names and branding",
+        "Regional mascot and identity symbol",
+        "Beer names, food products, etc."
+      ]
+    }
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "James F. McCloy",
+        "affiliation": "Historian/Author",
+        "contribution": "Co-authored definitive book on Jersey Devil history",
+        "period": "1970s"
+      },
+      {
+        "name": "Ray Miller Jr.",
+        "affiliation": "Historian/Author",
+        "contribution": "Co-authored definitive book on Jersey Devil history",
+        "period": "1970s"
+      },
+      {
+        "name": "Loren Coleman",
+        "affiliation": "Cryptozoologist",
+        "contribution": "Extensive research on Jersey Devil within broader cryptozoology context",
+        "period": "1970s-present"
+      },
+      {
+        "name": "Brian Regal",
+        "affiliation": "Historian, Kean University",
+        "contribution": "Academic research on Jersey Devil's origins and political connections",
+        "period": "2000s-present"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "South Jersey Ghost Research",
+        "url": "http://www.sjgr.org",
+        "focus": "Paranormal investigation including Jersey Devil"
+      },
+      {
+        "name": "New Jersey Devil Hunters",
+        "url": "Various social media",
+        "focus": "Modern Jersey Devil investigation"
+      }
+    ],
+    "ongoing_studies": "Modern research focuses on historical documentation analysis, folklore studies, and occasional field investigations in the Pine Barrens. Trail cameras have been deployed by various researchers, with no conclusive results."
+  },
+
+  "sources": [
+    {
+      "id": "mccloy-miller-1976",
+      "type": "book",
+      "title": "The Jersey Devil",
+      "authors": ["James F. McCloy", "Ray Miller Jr."],
+      "publication": "Middle Atlantic Press",
+      "date": "1976",
+      "isbn": "978-0912608068"
+    },
+    {
+      "id": "regal-2013",
+      "type": "book",
+      "title": "Searching for Sasquatch: Crackpots, Eggheads, and Cryptozoology",
+      "authors": ["Brian Regal"],
+      "publication": "Palgrave Macmillan",
+      "date": "2011",
+      "isbn": "978-0230112476",
+      "note": "Contains extensive Jersey Devil analysis"
+    },
+    {
+      "id": "newspapers-1909",
+      "type": "newspaper collection",
+      "title": "Various New Jersey and Pennsylvania newspapers",
+      "date": "January 1909",
+      "note": "Primary sources for 1909 Phenomenal Week"
+    },
+    {
+      "id": "coleman-1999",
+      "type": "book",
+      "title": "Cryptozoology A to Z",
+      "authors": ["Loren Coleman", "Jerome Clark"],
+      "publication": "Fireside",
+      "date": "1999",
+      "isbn": "978-0684856025"
+    }
+  ]
+}
