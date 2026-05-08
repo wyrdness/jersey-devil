@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/jersey-devil",
     "maintainers": [
       {
@@ -16,111 +16,305 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "jersey-devil",
     "name": "Jersey Devil",
-    "aliases": [],
-    "category": "CRYPTID",
-    "subcategory": "| Description | Status |",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      { "name": "Leeds Devil", "region": "New Jersey, USA", "meaning": "Earlier name connecting the legend to the Leeds family of colonial New Jersey" },
+      { "name": "Devil of the Pine Barrens", "region": "South Jersey, USA" }
     ],
-    "status": "documented",
+    "category": "CRYPTID",
+    "subcategory": "Winged humanoid / chimeric creature",
+    "tags": [
+      "winged",
+      "bipedal",
+      "horse-headed",
+      "pine-barrens",
+      "new-jersey",
+      "north-america",
+      "colonial-folklore",
+      "cryptid"
+    ],
+    "status": "active",
     "description": {
-      "summary": "The Jersey Devil is a legendary creature said to inhabit the Pine Barrens of South Jersey.",
-      "full": "The Jersey Devil is a legendary creature said to inhabit the Pine Barrens of South Jersey. Described as having the head of a horse or goat, bat-like wings, hooves, and a forked tail, the creature has been part of New Jersey folklore for nearly three centuries. According to legend, it was born in 1735 as the cursed thirteenth child of Mother Leeds. The creature gained widespread notoriety during a mass sighting wave in January 1909, when thousands of people across New Jersey and Pennsylvania reported encounters over the span of one intense week. The Jersey Devil remains deeply embedded in New Jersey culture and is considered one of America's oldest and most enduring regional cryptids. It serves as the state's unofficial mascot, a tourism draw, and the namesake of New Jersey's NHL team."
+      "summary": "The Jersey Devil is a legendary winged, bipedal creature of the New Jersey Pine Barrens, traditionally said to be the cursed thirteenth child of 'Mother Leeds' born in 1735. Its most famous burst of activity was a week of mass sightings across South Jersey and Philadelphia in January 1909.",
+      "full": "The Jersey Devil is one of the oldest and most culturally entrenched regional cryptids of the United States. Witnesses describe a bipedal, kangaroo-like or wyvern-like creature with the head of a horse or goat, leathery bat-like wings, small clawed forearms, hooved hindlegs, and a long forked or barbed tail. The legend's origin tale, recorded in many forms since the 19th century, is that in 1735 a Pine Barrens woman known as Mother Leeds, pregnant with her thirteenth child, cursed it ('Let it be the devil!'), whereupon the newborn took monstrous form and flew up the chimney into the swamps. Historian Brian Regal has argued that the legend congealed around the real Leeds family of colonial New Jersey — particularly the almanac-maker Daniel Leeds and his son Titan Leeds, whose feud with Benjamin Franklin and reputation for occult sympathies, plus the wyvern on the Leeds family crest, supplied the iconography. The phenomenon's defining episode was the week of 16–23 January 1909, when more than a thousand reports of a flying or hopping monster came in from towns across South Jersey and the Philadelphia region, accompanied by school closures, vigilante hunts, and a notorious hoax in which Norman Jeffries and Jacob Hope displayed a kangaroo with glued-on bat wings and claws as 'the captured Jersey Devil'. The creature persists in regional folklore, lent its name to the New Jersey Devils NHL franchise (1982), and continues to generate occasional sightings in the Pine Barrens."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Originally 'Leeds Devil' in 18th–19th century New Jersey usage, from association with the Leeds family of Burlington County. 'Jersey Devil' became dominant after the 1909 sighting wave.",
+      "meaning": "'Devil' from the curse-narrative origin and the creature's demonic appearance",
+      "first_use": "'Leeds Devil' from 18th–19th century oral tradition; 'Jersey Devil' fixed in print c. 1909"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "| Description | Status |",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Winged humanoid / chimera",
+      "subtype": "Horse-headed wyvern-like creature",
+      "variant": "New Jersey Pine Barrens"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "mothman", "name": "Mothman", "relationship": "similar", "description": "American winged humanoid cryptid (West Virginia, 1966–67)" },
+      { "id": "snallygaster", "name": "Snallygaster", "relationship": "similar", "description": "Mid-Atlantic winged dragon-like cryptid of Maryland Pennsylvania Dutch lore" },
+      { "id": "thunderbird", "name": "Thunderbird", "relationship": "related", "description": "Indigenous and cryptozoological winged megafauna of North America" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 0.9, "max": 2.4, "unit": "meters", "confidence": "low" },
+      "coloration": ["dark grey", "black", "brown"],
+      "features": [
+        { "feature": "Horse- or goat-like head", "description": "Long, narrow head with horns, sometimes described as goat-like, sometimes as equine", "frequency": "always" },
+        { "feature": "Bat-like wings", "description": "Leathery, dragon- or bat-like wings with substantial wingspan", "frequency": "always" },
+        { "feature": "Cloven hooves", "description": "Hooved hind legs, often described as kangaroo-like in posture", "frequency": "common" },
+        { "feature": "Forked tail", "description": "Long forked or barbed reptilian tail", "frequency": "common" },
+        { "feature": "Glowing red eyes", "description": "Red or glowing eyes reported in night encounters", "frequency": "occasional" },
+        { "feature": "Piercing scream", "description": "High-pitched, blood-curdling cry frequently reported by witnesses", "frequency": "common" }
+      ],
+      "morphology": "Chimeric: equine/caprine head, bipedal kangaroo- or wyvern-like body plan, leathery wings, cloven hooves, and a long tail. The configuration is more reminiscent of heraldic wyverns than of any known biological taxon."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Flight", "description": "Powered flight on bat-like wings; reported gliding, hovering, and rooftop landings", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Loud screaming vocalization", "description": "Witnesses repeatedly describe a high-pitched scream or shriek", "frequency": "common", "evidence_level": "reported" },
+      { "ability": "Livestock predation", "description": "Older accounts attribute killing of chickens and farm animals to the creature", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "neutral",
+      "social_structure": "solitary",
+      "habitat_preference": ["Pine Barrens (pitch pine and oak forest)", "cedar swamps", "isolated farms and rural roads"],
+      "diet": "Tradition variously describes the creature as feeding on livestock and small game; modern reports do not include predation",
+      "patterns": [
+        "Concentrated in the New Jersey Pine Barrens",
+        "Bursts of activity (notably January 1909) followed by long quiet periods",
+        "Often reported during livestock disturbances"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "The Jersey Devil is a distinctly regional cryptid associated with the Pine Barrens of southern New Jersey and adjacent areas of southeastern Pennsylvania and the Delaware Valley.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": ["Pine Barrens", "South Jersey", "Delaware Valley", "Philadelphia metropolitan area"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Pine Barrens",
+        "location": {
+          "description": "Pine Barrens, southern New Jersey",
+          "country": "United States",
+          "region": "New Jersey",
+          "coordinates": { "latitude": 39.8, "longitude": -74.5 }
+        },
+        "peak_period": "1735–present",
+        "notes": "Traditional homeland of the legend; site of the Mother Leeds origin tale and the bulk of historical sightings"
+      },
+      {
+        "name": "Leeds Point",
+        "location": {
+          "description": "Leeds Point, Atlantic County, New Jersey",
+          "country": "United States",
+          "region": "New Jersey",
+          "coordinates": { "latitude": 39.4884, "longitude": -74.4332 }
+        },
+        "peak_period": "1735–present",
+        "notes": "Most commonly cited as the Mother Leeds homestead site"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1735",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Traditional Mother Leeds origin narrative"
+      },
+      "peak_activity_periods": [
+        { "period": "1909-01-16 to 1909-01-23", "description": "Phenomenal week of mass sightings across South Jersey and the Philadelphia region; school closures, vigilante hunts, hoaxes" },
+        { "period": "1930s–1960s", "description": "Recurring local sightings reported in regional newspapers" },
+        { "period": "1970s–present", "description": "Continued sporadic sightings; cryptozoological investigation" }
+      ],
+      "seasonal_patterns": "Sightings are reported across all seasons; the most famous wave occurred in mid-winter (January 1909)"
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Colonial New Jersey folklore of the Pine Barrens, blending Quaker / English settler traditions, regional rivalries with the Leeds family, and frontier swamp lore.",
+      "earliest_accounts": "Mother Leeds curse-narrative traditionally dated to 1735; Joseph Bonaparte (former King of Spain) is said to have reported a sighting near Bordentown around 1820 while hunting; Commodore Stephen Decatur is said to have fired on the creature at the Hanover Mill Works.",
+      "folklore_connections": "Connected to colonial American devil-pact narratives, the heraldic wyvern of the Leeds family crest, and broader Anglo-American 'wonder' literature about monstrous births."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1735", "event": "Traditional date of the Mother Leeds curse-birth in the Pine Barrens", "significance": "Foundational legend of the Jersey Devil", "source": "New Jersey colonial folklore" },
+      { "date": "1909-01-16", "event": "Beginning of a week-long wave of more than a thousand sightings across South Jersey, Philadelphia, and the Delaware Valley", "significance": "Defining mass-sighting episode of the Jersey Devil phenomenon", "source": "Philadelphia and South Jersey newspapers, January 1909" },
+      { "date": "1909-01-23", "event": "End of the 1909 sighting wave, with hoax exhibition by Norman Jeffries and Jacob Hope of a kangaroo with glued-on wings and claws", "significance": "Wave subsides; hoax becomes a touchstone for skeptics", "source": "Philadelphia newspaper coverage, January 1909" },
+      { "date": "1982", "event": "The Colorado Rockies NHL franchise relocates to East Rutherford, New Jersey and is renamed the New Jersey Devils after the legend", "significance": "Major mainstreaming of the legend", "source": "NHL franchise records" },
+      { "date": "2013", "event": "Historian Brian Regal publishes work tracing the legend to the historical Leeds family and the Daniel Leeds–Benjamin Franklin rivalry", "significance": "Historiographic re-grounding of the legend in colonial New Jersey politics", "source": "Regal, B. (2013), 'The Jersey Devil: The Real Story', Skeptical Inquirer" }
+    ],
+    "modern_era": "The Jersey Devil persists as the unofficial mascot of New Jersey, namesake of the New Jersey Devils NHL team and the Jersey Devil Coaster at Six Flags Great Adventure, and a continued subject of cryptozoological investigation, documentary television, and Pine Barrens tourism."
   },
+
   "sightings": {
     "statistics": {
-      "total_documented": 0,
+      "total_documented": 2000,
       "verified": 0,
-      "disputed": 0,
-      "debunked": 0
+      "disputed": 1500,
+      "debunked": 50,
+      "date_range": { "earliest": "1735", "latest": "2026" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "jersey-devil-sighting-1909-january-wave",
+        "name": "January 1909 mass-sighting wave",
+        "date": { "value": "1909-01-16", "precision": "range", "end_date": "1909-01-23" },
+        "location": {
+          "description": "South Jersey, Philadelphia, and the Delaware Valley",
+          "country": "United States",
+          "region": "New Jersey / Pennsylvania",
+          "coordinates": { "latitude": 39.95, "longitude": -75.16, "precision": "region" }
+        },
+        "witnesses": { "count": 1000, "types": ["Residents of dozens of towns", "Police officers", "Trolley operators", "Newspaper reporters"], "credibility_factors": ["Geographically dispersed reports", "Contemporary newspaper coverage", "Mass-hysteria context"] },
+        "description": "Over the course of a single week, more than a thousand reports came in from across South Jersey and the Philadelphia region of a flying or bounding creature with hooves, wings, and a horse-like head. Reports included an attempted attack on a trolley car at Haddon Heights, an incident at a Camden social club, livestock disturbances, and unusual hoofprints in the snow. Schools and factories closed; armed posses formed. The wave culminated in a hoax exhibition staged by Norman Jeffries and Jacob Hope of a kangaroo dressed up as the Devil.",
+        "conditions": { "weather": "Cold mid-winter, snow on ground", "visibility": "Variable", "time_of_day": "Day and night reports", "duration": "Approximately one week" },
+        "evidence": ["Newspaper accounts", "Reports of hoofprints in snow", "Hoax kangaroo specimen (Jeffries / Hope)"],
+        "credibility": { "rating": "low", "factors": ["Mass-hysteria context", "Confirmed central hoax", "No physical evidence preserved"], "notes": "Foundational mass-sighting episode of the legend; the central exhibited 'specimen' was a known hoax." },
+        "sources": ["Philadelphia newspapers (Inquirer, Public Ledger, Bulletin) January 1909", "Trenton Times January 1909"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
-    "physical": [],
+    "physical": [
+      {
+        "id": "jersey-devil-evidence-jeffries-hope-hoax",
+        "type": "hoax specimen",
+        "name": "Jeffries / Hope kangaroo hoax",
+        "date": "1909-01",
+        "description": "Norman Jeffries and Jacob Hope purchased a kangaroo from a circus, glued artificial bat-like wings and claws onto it, and exhibited it during the 1909 sighting wave as 'the captured Jersey Devil'.",
+        "location": "Philadelphia, Pennsylvania",
+        "status": "debunked",
+        "analysis": "Acknowledged hoax; subsequently widely cited as evidence of opportunistic exploitation of the 1909 panic.",
+        "source": "Philadelphia newspaper coverage, January 1909"
+      }
+    ],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [
+      {
+        "id": "jersey-devil-evidence-1909-tracks",
+        "type": "tracks in snow",
+        "name": "1909 hoofprint reports",
+        "date": "1909-01",
+        "description": "Numerous reports of unusual hoof- or cleft-print trails in the snow across South Jersey during the 1909 wave; reportedly traversing rooftops and fences.",
+        "status": "unverified",
+        "analysis": "No casts preserved; consistent with mass-misidentification and / or hoax in a snow-covered landscape.",
+        "source": "Philadelphia and South Jersey newspaper coverage, January 1909"
+      }
+    ],
+    "documentary": []
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Cursed birth / supernatural entity",
+        "description": "The traditional folk explanation: the creature is the supernatural offspring of Mother Leeds's 1735 curse, a literal devil bound to the Pine Barrens.",
+        "proponents": ["Pine Barrens oral tradition"],
+        "evidence_cited": ["Continuity of the origin narrative since the colonial era", "Persistent regional sightings"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Vagrant sandhill crane",
+        "description": "Some researchers, including Jeff Brunner of the Humane Society of the United States, have suggested vagrant sandhill cranes — large, unfamiliar birds with loud calls — may account for some sightings.",
+        "proponents": ["Jeff Brunner (Humane Society of the United States)"],
+        "evidence_cited": ["Sandhill crane size and distinctive vocalizations", "Out-of-range cranes occasionally reported in the eastern US"]
+      },
+      {
+        "name": "Hammerhead bat resemblance",
+        "description": "Writer Dan Evon has noted the African hammerhead bat (Hypsignathus monstrosus) bears a striking resemblance to traditional Jersey Devil descriptions, though the species is not native to North America.",
+        "proponents": ["Dan Evon"],
+        "evidence_cited": ["Photographic comparisons of Hypsignathus monstrosus to traditional Jersey Devil illustrations"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Leeds family political-folklore origin",
+        "description": "Historian Brian Regal argues that the Jersey Devil legend is a folkloric residue of colonial New Jersey political and religious feuds — particularly the rivalry between the almanac-maker Daniel Leeds (and his son Titan Leeds) with Benjamin Franklin — combined with the wyvern of the Leeds family crest.",
+        "proponents": ["Brian Regal"],
+        "evidence_cited": ["Daniel Leeds's reputation for occult sympathies", "Leeds family heraldry featuring a wyvern", "Pre-1909 use of the name 'Leeds Devil' rather than 'Jersey Devil'"]
+      },
+      {
+        "name": "Mass hysteria and hoax (1909)",
+        "description": "The 1909 wave is a case study in newspaper-driven mass hysteria, amplified by deliberate hoaxes such as the Jeffries / Hope kangaroo display.",
+        "proponents": ["Skeptical Inquirer commentators"],
+        "evidence_cited": ["Confirmed Jeffries / Hope hoax", "Lack of physical evidence", "Pattern of escalating newspaper coverage during the week"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Pine Barrens oral tradition",
+        "Leeds family legend (colonial New Jersey)",
+        "Mother Leeds curse-birth narrative"
+      ],
+      "stories": [
+        "Mother Leeds and the thirteenth child (1735)",
+        "Joseph Bonaparte's encounter near Bordentown (c. 1820, traditional)",
+        "Commodore Stephen Decatur firing on the creature at the Hanover Mill Works (early 19th century, traditional)"
+      ],
+      "beliefs": "Widely treated as folklore in modern New Jersey, but the legend retains real cultural force in the Pine Barrens, where some residents continue to report sightings."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "The Jersey Devil — James F. McCloy and Ray Miller Jr. (1976)",
+        "Phantom of the Pines: More Tales of the Jersey Devil — McCloy and Miller (1998)",
+        "The Secret History of the Jersey Devil — Brian Regal and Frank J. Esposito (2018)"
+      ],
+      "film_tv": [
+        "The Last Broadcast (1998)",
+        "The X-Files episode 'The Jersey Devil' (1993)",
+        "13th Child (2002)",
+        "The Barrens (2012)"
+      ],
+      "games": [
+        "Red Dead Redemption 2 — Easter egg",
+        "Mythic Quest — references"
+      ],
+      "music": [],
+      "other": [
+        "New Jersey Devils NHL franchise (1982–present)",
+        "Jersey Devil Coaster, Six Flags Great Adventure (2021)",
+        "Pine Barrens tourism and folklore festivals"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "James F. McCloy", "affiliation": "Independent (folklore)", "contribution": "Co-author of the foundational modern compilation 'The Jersey Devil' (1976) and its sequel; foundational sighting catalog", "period": "1970s–1990s" },
+      { "name": "Ray Miller Jr.", "affiliation": "Independent (folklore)", "contribution": "Co-author with McCloy", "period": "1970s–1990s" },
+      { "name": "Brian Regal", "affiliation": "Kean University (history of science)", "contribution": "Archival history of the Leeds family origin of the legend; co-author of 'The Secret History of the Jersey Devil' (2018)", "period": "2010s–present" }
+    ],
+    "organizations": [
+      { "name": "New Jersey Pine Barrens (Pinelands Preservation Alliance)", "url": "https://pinelandsalliance.org", "focus": "Conservation of the Pine Barrens; cultural recognition of the legend" }
+    ],
+    "ongoing_studies": "Sporadic cryptozoological field work, documentary television production, and academic folkloric / historical study (notably Regal)."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-jersey-devil", "type": "website", "title": "Jersey Devil", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Jersey_Devil", "accessed": "2026-05-07" },
+    { "id": "mccloy-miller-1976", "type": "book", "title": "The Jersey Devil", "authors": ["James F. McCloy", "Ray Miller Jr."], "publication": "Middle Atlantic Press", "date": "1976" },
+    { "id": "regal-esposito-2018", "type": "book", "title": "The Secret History of the Jersey Devil: How Quakers, Hucksters, and Benjamin Franklin Created a Monster", "authors": ["Brian Regal", "Frank J. Esposito"], "publication": "Johns Hopkins University Press", "date": "2018" },
+    { "id": "regal-skeptical-inquirer", "type": "article", "title": "The Jersey Devil: The Real Story", "authors": ["Brian Regal"], "publication": "Skeptical Inquirer", "date": "2013" },
+    { "id": "phila-newspapers-1909", "type": "news", "title": "Coverage of the Jersey Devil sightings, January 1909", "publication": "Philadelphia Inquirer / Philadelphia Public Ledger / Trenton Times", "date": "1909-01" }
+  ]
 }
